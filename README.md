@@ -1,14 +1,14 @@
 # Data Analysis Projects
 
-## JJ Data Connector
+## 1. JJ Data Connector
 A lightweight Python package to provide simple interface to query data and report from Google Analytics 4, YouTube Analytics, Google Search Console Analytics, and Salesforce.
 
-## Basic Usage
+### Basic Usage
 1. Enable API services.
 
 3. Start using the API.
 
-### Querying report from Google Search Console
+#### Querying report from Google Search Console
 
 ```Python
 from jj_data_connector.yt_analytics import YTAnalytics, CoreDimensions, SubDimensions, CoreMetrics, SubMetrics
@@ -38,7 +38,7 @@ df.rename(columns={df.columns[i]: dimensions[i] for i in range(len(dimensions))}
 print(df)
 ```
 
-### Querying report from Salesforce
+#### Querying report from Salesforce
 
 ```python
 import pandas as pd
@@ -59,7 +59,7 @@ print(object_record_count)
 print(df_soql)
 ```
 
-### Querying report from Google Analytics 4 (GA4)
+#### Querying report from Google Analytics 4 (GA4)
 
 ```python
 import os
