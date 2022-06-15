@@ -1,7 +1,7 @@
 # Data Analysis Projects
 
 ## 1. JJ Data Connector
-A lightweight Python package to provide simple interface to query data and report from Google Analytics 4, YouTube Analytics, Google Search Console Analytics, and Salesforce.
+A lightweight Python package to provide simple interface to query data and reports from Google Analytics 4, YouTube Analytics, Google Search Console Analytics, and Salesforce.
 
 ### Basic Usage
 1. Enable API services.
